@@ -1,0 +1,88 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Halo",
+          "apa kabar?",
+          "Hello",
+          "hello"
+        ],
+        "responses": [
+          "Halo, terimakasih sudah datang, ada yang perlu di bantu?",
+          "Halo, ada yang perlu dibantu?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Terimakasih","Dahh"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Sama - sama, have a nice day"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "pengisian krs",
+        "patterns": ["Bagaimana cara pengisian krs", "cara mengisi krs", "mengisi krs"],
+        "responses": [
+          "Untuk mengisi KRS, silakan ikuti langkah-langkah berikut:\n1. Login ke studensite gunadarma.\n2. Pilih menu KRS Online.\n3. Pilih semester dan tahun akademik yang sesuai.\n4. Tambahkan mata kuliah yang ingin Anda ambil dengan mengklik 'Tambah Mata Kuliah'.\n5. Setelah semua mata kuliah terpilih, klik 'Simpan' atau 'Submit'.\n6. Pastikan untuk mengecek ulang KRS Anda sebelum batas waktu pengisian.\nJika Anda mengalami kesulitan, hubungi bagian akademik atau pembimbing akademik Anda untuk bantuan lebih lanjut."
+        ]
+      },
+      {
+        "tag": "waktu_pengisian_krs",
+        "patterns": [
+            "Kapan waktu pengisian KRS?",
+            "Jadwal pengisian KRS",
+            "Batas waktu pengisian KRS",
+            "Kapan mulai pengisian KRS?"
+        ],
+        "responses": [
+            "Waktu pengisian KRS biasanya diumumkan oleh bagian akademik universitas Anda. Pengisian KRS biasanya dilakukan sebelum semester baru dimulai. Pastikan untuk memeriksa pengumuman resmi dari universitas pada website BAAK atau login ke portal akademik untuk informasi lebih lanjut mengenai jadwal pengisian KRS."
+        ]
+    },
+    {
+        "tag": "terlambat_pengisian_krs",
+        "patterns": [
+            "Bagaimana jika terlambat pengisian KRS?",
+            "Apa yang harus dilakukan jika terlambat mengisi KRS?",
+            "Terlambat pengisian KRS",
+            "Konsekuensi terlambat mengisi KRS"
+        ],
+        "responses": [
+            "Jika Anda terlambat mengisi KRS, segera hubungi bagian akademik atau pembimbing akademik Anda. Mereka mungkin dapat memberikan solusi atau perpanjangan waktu pengisian KRS. Namun, tergantung pada kebijakan universitas, Anda mungkin dikenakan sanksi administratif atau biaya tambahan."
+        ]
+    },
+    {
+        "tag": "blanko_virtual_account_expired",
+        "patterns": [
+            "Bagaimana jika blanko virtual account expired?",
+            "Apa yang harus dilakukan jika virtual account expired?",
+            "Virtual account expired",
+            "Blanko pembayaran kuliah expired"
+        ],
+        "responses": [
+            "Jika blanko virtual account Anda expired, Anda perlu mendapatkan blanko baru. Caranya adalah sebagai berikut:\n1. Login ke portal akademik universitas Anda.\n2. Pilih menu 'Pembayaran' atau 'Virtual Account'.\n3. Pilih semester dan tahun akademik yang sesuai.\n4. Sistem akan menghasilkan nomor Virtual Account yang baru.\nJika Anda mengalami kesulitan, hubungi bagian keuangan atau pusat layanan mahasiswa universitas Anda untuk bantuan lebih lanjut."
+        ]
+    },
+    {
+        "tag": "mengulang_mata_kuliah",
+        "patterns": [
+            "Bagaimana jika ingin mengulang mata kuliah?",
+            "Proses mengulang mata kuliah",
+            "Cara mengulang mata kuliah",
+            "Mengulang mata kuliah"
+        ],
+        "responses": [
+            "Untuk mengulang mata kuliah, ikuti langkah-langkah berikut:\n1. Pastikan Anda memenuhi syarat untuk mengulang mata kuliah sesuai dengan kebijakan universitas.\n2. Login ke portal akademik universitas Anda.\n3. Pilih menu 'KRS Online' atau 'Pengisian KRS'.\n4. Tambahkan mata kuliah yang ingin Anda ulang dengan mengklik 'Tambah Mata Kuliah'.\n5. Setelah semua mata kuliah terpilih, klik 'Simpan' atau 'Submit'.\nJika Anda memerlukan informasi lebih lanjut, hubungi bagian akademik atau pembimbing akademik Anda."
+        ]
+    }  
+    ]
+  }
+  
